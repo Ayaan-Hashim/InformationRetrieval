@@ -331,20 +331,20 @@ if __name__ == '__main__':
     index_choice = int(input('(1) create index or (2) load from saved index amd search? '))
     
     # provide the filepath of the xml that needs to be parsed
-    document_filepath = "cw1collection/trec.5000.xml"
+    document_filepath = "trec.sample.xml"
     
     # Saved index filepath
-    index_filepath = "cw1collection/index.txt"
+    index_filepath = "index.txt"
 
     # Provide the filepath for the queries
-    queries_boolean_filepath = 'cw1collection/queries.boolean.txt'
+    queries_boolean_filepath = 'queries.boolean.txt'
     # Provide the filepath for the reult to be saved
-    results_boolean_filepath = 'cw1collection/results.boolean.txt'
+    results_boolean_filepath = 'results.boolean.txt'
 
     # Provide the filepath for the queries
-    queries_ranked_filepath = 'cw1collection/queries.ranked.txt'
+    queries_ranked_filepath = 'queries.ranked.txt'
     # Provide the filepath for the reult to be saved
-    results_ranked_filepath = 'cw1collection/results.ranked.txt'
+    results_ranked_filepath = 'results.ranked.txt'
 
     if index_choice == 1:
         search_engine.parse_xml(document_filepath)
