@@ -5,7 +5,7 @@ import xml.etree.ElementTree as ET
 import math
 
 
-filepath = 'collections/trec.sample.xml'
+filepath = 'trec.sample.xml'
 
 class SearchEngine:
 
